@@ -1,0 +1,32 @@
+.headerContainer{
+  background: var(--ligth-gray);
+  height: 6.5rem;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 4rem;
+  border-bottom: 1px solid var(--gray);
+  border-radius: 8px;
+
+  p{
+    margin-left: 2rem;
+    padding: 0.25rem 0 0.25rem 2rem ;
+    border-left: 1px solid var(--gray);
+  }
+  span{
+    margin-left: auto;
+    text-transform: capitalize;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  strong{
+    font-family: Lexend, sans-serif;
+    font-weight: 600;
+  }
+}
